@@ -1,0 +1,22 @@
+{
+  "name": "expressjs-lab",
+  "version": "1.0.0",
+  "description": "Creating a simple server to handle a form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipjhl/ExpressJS-Lab.git"
+  },
+  "author": "Phillip Langland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phillipjhl/ExpressJS-Lab/issues"
+  },
+  "homepage": "https://github.com/phillipjhl/ExpressJS-Lab#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
