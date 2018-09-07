@@ -9,6 +9,12 @@ app.use(bP.urlencoded({extended: false}));
 app.post('/contact-form', (req, res) => {
     console.log(req.body.email);
     console.log(req.body.name);
+    let info = {
+        name: req.body.name,
+        email: req.body.email
+    }
+    console.log(info);
+    fs.writeFileSync(path.join(__dirname, '../Info.json'), JSON.stringify(info));
     res.send('Thank You!');
 });
 
